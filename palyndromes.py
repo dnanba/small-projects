@@ -6,7 +6,6 @@ length = len(word)
 #creating intermediate list
 intermediate_word = list(word)
 
-
 for letter in word: #looping through word letters
   length -= 1 #length counter -1
   intermediate_word[length] = letter #substituting with current letter
